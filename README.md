@@ -4,7 +4,7 @@
 
 *NAME*: ALPHIN KINGSLEY S
 
-*INTERN ID*: CTO4DF11978
+*INTERN ID*: CTO4DG37
 
 *DOMAIN*: Python programming
 
@@ -52,7 +52,10 @@ Finally, the current date and time are included as a timestamp at the bottom of 
 
 The PDF is stored in an in-memory buffer (io.BytesIO) instead of writing it to disk.
 
-Download Link for the PDF To let the user download the generated PDF, the buffer content is encoded in base64. A download link is created using HTML tag, which is rendered in the app using st.markdown() with unsafe_allow_html=True.
+Download Link for the PDF To let the user download the generated PDF, the buffer content is encoded in base64. A download link is created using HTML tag, which is rendered in the app using st.markdown() with unsafe_allow_html=True. 
+
+output
+<img width="939" height="135" alt="Image" src="https://github.com/user-attachments/assets/a62efa44-66fd-4466-a3e9-aa5e7e3e148e" />
 
 Error Handling If the CSV file fails to load or parse correctly, an error message is displayed.
 
